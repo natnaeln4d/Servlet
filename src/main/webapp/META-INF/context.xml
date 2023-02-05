@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Servelet">
+
+<servlet>
+    <servlet-name>Servelet</servlet-name>
+    <servlet-class>Servelet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Servelet</servlet-name>
+    <url-pattern>/Servelet</url-pattern>
+</servlet-mapping>
+<session-config>
+    <session-timeout>
+    30
+    </session-timeout>
+</session-config>
+</Context>
